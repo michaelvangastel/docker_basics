@@ -1,0 +1,26 @@
+<html>
+<title>DOCKER CONTAINER WEBPAGINA</title>
+  <head>
+    <style type="text/css">
+      body {
+        background: black;
+        color: white;
+      }
+      div.container {
+        max-width: 500px;
+        margin: 100px auto;
+        border: 20px solid white;
+        padding: 10px;
+        text-align: center;
+      }
+      h3 {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h3 style="color: {{ text_color }}">Hallo {{ name }}!</h3> <b>Hostname:</b> {{ hostname }}<br/>
+    </div>
+  </body>
+</html>
